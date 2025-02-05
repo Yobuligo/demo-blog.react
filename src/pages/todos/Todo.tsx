@@ -1,5 +1,7 @@
-const Todo: React.FC = () => {
-  return <>Hello Todo</>;
+import { Todo } from "@/components/Todo";
+
+const TodoPage: React.FC = () => {
+  return <Todo />;
 };
 
-export default Todo;
+export default TodoPage;
