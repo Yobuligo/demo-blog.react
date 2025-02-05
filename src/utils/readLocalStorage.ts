@@ -1,5 +1,3 @@
-"use client";
-
 export const readLocalStorage = <T>(key: string): T | undefined => {
   const value = localStorage.getItem(key);
   if (value) {
