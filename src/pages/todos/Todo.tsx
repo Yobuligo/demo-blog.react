@@ -1,3 +1,5 @@
-export const Todo: React.FC = () => {
+const Todo: React.FC = () => {
   return <>Hello Todo</>;
 };
+
+export default Todo;
