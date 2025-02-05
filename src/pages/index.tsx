@@ -1,4 +1,4 @@
-import PostLink from "../components/PostLink";
+import { PostLink } from "@/components/PostLink";
 
 type Post = {
   id: string;
